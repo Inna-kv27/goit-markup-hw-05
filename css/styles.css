@@ -232,6 +232,7 @@ img {
 
 .modal-input-wrap {
     position: relative;
+    margin-top: 4px;
 }
 
 .modal-input {
@@ -272,6 +273,7 @@ img {
     line-height: 1.2;
     letter-spacing: 0.48px;
     resize: none;
+    margin-top: 4px;
 }
 
 .check-text {
@@ -739,6 +741,14 @@ margin-right: 120px;
     line-height: 2;
     letter-spacing: 0.04em;
 }
+
+.footer-form-icon {
+    display: inline-flex;
+    margin-left: 24px;
+    
+
+}
+
 .footer-form-btn {
     color: #FFF;
     text-align: center;
@@ -747,15 +757,26 @@ margin-right: 120px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    display: inline-flex;
     padding: 8px 24px;
     justify-content: center;
     align-items: center;
     gap: 16px;
     border-radius: 4px;
     background: #4D5AE5;
-    margin-left: 24px;
+    position: relative;
+    right: 16px;
+    width: 165px;
+    height: 40px;
+}
 
+.footer-subscribe-icon {
+    position: absolute;
+    fill: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 /*? ------------------END-------------- */
