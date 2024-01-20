@@ -356,10 +356,10 @@ img {
 }
 
 .one-button {
-    display: flex;
+    display: block;
     margin: 0 auto;
     padding: 16px 32px;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     gap: 10px;
     border-radius: 4px;
