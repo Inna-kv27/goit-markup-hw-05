@@ -281,13 +281,12 @@ img {
     font-size: 12px;
     line-height: 1.2;
     letter-spacing: 0.04em;
-    display: flex;
     align-items: center;
 }
 .check-text a {
     color: #4D5AE5;
     line-height: 1.3;
-    text-decoration-line: underline;
+    text-decoration: underline;
 }
 .check-text span {
     width: 16px;
@@ -728,6 +727,10 @@ margin-right: 120px;
     margin-bottom: 16px;
 }
 
+.footer-container {
+    display: flex;
+}
+
 .footer-input {
     width: 264px;
     height: 40px;
@@ -740,19 +743,14 @@ margin-right: 120px;
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
+    margin-right: 24px;
 }
 
-.footer-form-icon {
-    display: inline-flex;
-    margin-left: 24px;
-    
-
-}
 
 .footer-form-btn {
+    display: inline-flex;
     color: #FFF;
     text-align: center;
-    font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -760,23 +758,16 @@ margin-right: 120px;
     padding: 8px 24px;
     justify-content: center;
     align-items: center;
-    gap: 16px;
     border-radius: 4px;
     background: #4D5AE5;
     position: relative;
-    right: 16px;
     width: 165px;
     height: 40px;
 }
 
 .footer-subscribe-icon {
-    position: absolute;
     fill: #FFFFFF;
-    justify-content: center;
-    align-items: center;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
+    margin-left: 16px;
 }
 
 /*? ------------------END-------------- */
