@@ -257,7 +257,6 @@ img {
     left: 16px;
     top: 50%;
     transform: translateY(-50%)
-    
 }
 
 .modal-text {
@@ -276,6 +275,10 @@ img {
     margin-top: 4px;
 }
 
+.modal-check {
+    margin-bottom: 24px;
+}
+
 .check-text {
     color: #8E8F99;
     font-size: 12px;
@@ -283,11 +286,13 @@ img {
     letter-spacing: 0.04em;
     align-items: center;
 }
+
 .check-text a {
     color: #4D5AE5;
     line-height: 1.3;
     text-decoration: underline;
 }
+
 .check-text span {
     width: 16px;
     height: 16px;
@@ -339,7 +344,7 @@ img {
     background-position: center;
     background-size: cover;
     margin: 0 auto;
-    padding: 188px 472px;
+    padding: 188px 0;
 }
 
 
@@ -356,6 +361,7 @@ img {
 
 .one-button {
     display: block;
+    bottom: none;
     margin: 0 auto;
     padding: 16px 32px;
     align-items: flex-start;
